@@ -186,6 +186,7 @@
     background-position: center;
     height: 100vh;
   }
+  
   .section2 {
    
     width: 100%;
@@ -195,6 +196,7 @@
     text-align: center;
     color: white;
   }
+  
   .mainButton {
     font-size: 1.2rem;
     width: 175px;
@@ -217,6 +219,7 @@
     color: white;
     text-decoration: none;
 }
+
 .mainButton:after {
     position: absolute;
     content: '';
@@ -229,9 +232,11 @@
     transition: all 0.35s;
     border-radius: 2px;
 }
+
 .mainButton:hover {
     color: white;
 }
+
 .mainButton:hover:after {
     width: 100%;
 }
